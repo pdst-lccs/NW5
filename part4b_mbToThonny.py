@@ -1,6 +1,6 @@
 #Irene Stone
 #Micro:bit to Thonny
-#15th Sept 2023
+#Sept 2023
 
 import serial
 import time
