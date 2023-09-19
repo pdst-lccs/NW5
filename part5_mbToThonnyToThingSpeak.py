@@ -1,6 +1,6 @@
 #Irene Stone
 #Accessing thingSpeak from Thonny
-#15th Sept 2023
+#Sept 2023
 
 import time
 import serial
@@ -13,7 +13,6 @@ while True:
     data1 = str(ser.readline())
     data1 = data1.replace("b","")
     data1 = data1.replace("'","")
-#    data1 = data1.replace("\\r\\n","")
     data1 = data1.replace("\\r", "").replace("\\n", "")  # Remove \r and \n
 #    data1 = data1.replace("celsius:","")  #when using radio
     time.sleep(5)
