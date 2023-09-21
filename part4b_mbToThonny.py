@@ -7,7 +7,7 @@ import time
 
 ser = serial.Serial()
 ser.baudrate = 115200
-ser.port = "COM4"
+ser.port = "COM4"   #change the COM port
 ser.open()
 while True:
     data1 = str(ser.readline())
